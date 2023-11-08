@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background:#8f5b69;
+}
+
+/* .canva {
+    background: #ece768;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    position: relative;
+   
+}
+
+.circle {
+    width: 70vmin;
+    height: 70vmin;
+    background: #e8e0ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}used this sample found online for creating artwork, using it as a template */
+
+/* .ghost {
+    position: relative;
+    border: 0.5vmin solid black;
+    width: 30vmin;
+    height: 30vmin;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom: 0;
+    box-sizing: border-box;
+    background: #FFDCDF;
+} */
+
+.forever {
+    font-size:  30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+    color:#f1d6a4;
+    background-color: #4D163D;
+    
+}
+.is {
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content:space-around; 
+    color:#4D163D;
+    background-color: #a66577;
+}
+.a {
+    font-size:10px;
+    font-family:monospace;
+    display: flex;
+    justify-content:center;
+    color:#d19a6d;
+    background-color: #4c0112;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+/* body{
+  background: rgb(255, 255, 255);
+  font-family:monospace;
+} */
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    padding: 1px;
+    align-items:flex-end;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+  stroke: #4D163D;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: #730030;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+  stroke: #d19a6d;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: #823349;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: #f1d6a4;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}
+.box {
+    position: relative;
+    margin:auto;
+    display:flex;
+    margin-top: 10%;
+    width: 100%;
+    height: 100px;
+    border: solid 4px rgb(63, 7, 7);
+    justify-content:space-between;
+    background-color: #d19a6d;
+    z-index: 2;
+  }
+
+.shape {
+    width: 10px;
+    height: 300px;
+    background:rgb(94, 3, 3);
+    margin:auto;
+    justify-content:flex-start;
+    position:relative;
+  }
+@media screen and (max-width:1050) {
+    .desktop{
+        margin:0 auto !important;
+        padding:0 !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .ipad{
+        margin:0 auto !important;
+        padding:0 !important;
+    }
+}
+@media screen and (max-width:320px) {
+    .mobile{
+        margin:0 auto !important;
+        padding:0 !important;
+    }
+}
+/* challenges, utilized css but still couldn't identify if the work is correct. will return to verify */
